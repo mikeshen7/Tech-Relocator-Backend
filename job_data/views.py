@@ -38,7 +38,7 @@ class JobDataList(ListCreateAPIView):
                 Q(salary_low__lte=search_query_salary) & Q(salary_high__gte=search_query_salary)
             )
 
-        return queryset[:100]
+        return queryset
 
 class JobDataDetail(RetrieveUpdateDestroyAPIView):
     queryset = Job.objects.all()

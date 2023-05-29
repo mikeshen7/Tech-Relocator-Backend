@@ -7,4 +7,4 @@ class JobSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
     def limit_queryset(self, queryset):
-        return queryset[:100]
+        return queryset
