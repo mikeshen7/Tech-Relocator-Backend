@@ -28,3 +28,4 @@ https://tech-relocator-backend.vercel.app/api/v1/col
 https://tech-relocator-backend.vercel.app/token
 
 https://tech-relocator-backend.vercel.app/token/refresh
+
