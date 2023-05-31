@@ -1,6 +1,5 @@
 from django.db import models
-from django.contrib.auth import get_user_model
-from django.urls import reverse
+
 
 class Col(models.Model):
     rank = models.IntegerField()
@@ -12,6 +11,7 @@ class Col(models.Model):
     transportation = models.DecimalField(max_digits=5, decimal_places=1)
     health = models.DecimalField(max_digits=5, decimal_places=1)
     misc = models.DecimalField(max_digits=5, decimal_places=1)
+    state_code = models.CharField(max_length=10)
 
     def __str__(self):
         return self.state

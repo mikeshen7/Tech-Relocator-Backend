@@ -25,6 +25,12 @@ https://tech-relocator-backend.vercel.app/api/v1/col
 - ?state=washington
 - ?state=washington&state=oregon
 
+https://tech-relocator-backend.vercel.app/api/v1/col_city
+- ?state=washington
+- ?state_code=WA
+- ?city=seattle
+- ?state_code=washington&state=oregon&state_code=CA&state_code=FL&city=san&city=dallas
+
 https://tech-relocator-backend.vercel.app/token
 
 https://tech-relocator-backend.vercel.app/token/refresh

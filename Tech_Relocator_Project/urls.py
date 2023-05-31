@@ -22,8 +22,11 @@ urlpatterns = [
     # Skills Endpoint
     path('api/v1/skills/', include('skills.urls')),
 
-    # Cost of Living Endpoint
+    # Cost of Living (State) Endpoint
     path('api/v1/col/', include('col.urls')),
+
+    # Cost of Living (City) Endpoint
+    path('api/v1/col_city/', include('col_city.urls')),
 
     # JWT URLS
     path('api/token/', MyTokenObtainPairView.as_view(), name='token_obtain_pair'),
