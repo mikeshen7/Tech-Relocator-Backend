@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'job_data',
     'skills',
     'col',
+    'col_city',
 ]
 
 MIDDLEWARE = [
